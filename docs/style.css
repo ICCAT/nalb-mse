@@ -76,7 +76,7 @@ p {
 .brand h1 {
   font-size: 3rem;
   text-transform: uppercase;
-  color: white;
+  color: black;
 }
 
 
@@ -99,7 +99,7 @@ p {
 
 #header .header {
   min-height: 6vh;
-  background-color: rgba(31, 30, 30, 0.24);
+  background-color: rgba(255, 240, 0);, 1;
   transition: 0.3s ease background-color;
 }
 
