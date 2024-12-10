@@ -77,7 +77,7 @@ h3 {
 
 /* Content Area */
 #content {
-	width:900px;
+	width:1000px;
 	margin:10px 0 0 0px;
 	float:left;
 }
@@ -162,7 +162,7 @@ h3 {
 /* Sidebar Area */
 
 #sidebar {
-	width:203px;
+	width:400px;
 	margin:50px 30px 0 0px;
 	background: url(images/bg-sidebar.gif) repeat top right;
 	border:1px solid #dfdfdf;
