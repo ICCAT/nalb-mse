@@ -1,5 +1,5 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 
 /* Page Formatting */
 
@@ -8,26 +8,41 @@
 	padding:0;
 	}
 
+html {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
 body {
 	background-color:#ffffff;
-	font:12px "Trebuchet MS", Arial, Verdana;
+	font:12px;
 	color:#555555;
-	text-align:left;
+	text-align:center;
 }
 a {
-	color:#8bbc70;
+	color:#555555;
 	text-decoration:none;
 	}
 a:hover {
 	color:#555555;
 	text-decoration:none;
 	}
+/* visited link */
+a:visited {
+  	color: darkblue;
+	}
+
 img, img a {
 	border:0;
 	}
+
 p {
-	line-height:1.7em;
-	margin-bottom:20px;
+  font-size: 1.4rem;
+  margin-top: 5px;
+  line-height: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
 }
 
 h1 {
@@ -43,15 +58,10 @@ h3 {
 }
 
 /* Header Area */
-#topLine {
-	height:50px;
-	border-bottom:15px solid #DEEAFA;
-}
 
 #header{
-	width:693px;
-	margin:10px auto 0px auto;
-	padding:10px;
+  	min-height: 6vh;
+	border-bottom:15px solid #555555;
 	}
 	
 #header h1{
@@ -60,12 +70,6 @@ h3 {
 	background:#ffffff;
 	padding:5px 0px 5px 20px;
 }
-
-#header h1 span{
-	color:#8bbc70;
-	font-size:110%;
-}
-
 
 #header ul.nav {
 	margin:10px 0 0 0;
@@ -82,26 +86,12 @@ h3 {
 	padding:5px 10px 5px 5px;
 }
 
-#header ul.nav li.active {
-	margin:0;
-	padding: 5px 5px 0px 5px;
-	background:url(images/nav_corn_l.gif) no-repeat top left;
-}
-
-
-#header ul.nav li.active a{
-	padding:5px 10px 0px 5px;
-	display:inline;
-	background:url(images/nav_corn_r.gif) no-repeat top right;
-	color:#555555;
-}
-
 
 
 
 /* Content Area */
 #content {
-	width:450px;
+	width:80%;
 	margin:10px 0 0 0px;
 	float:left;
 }
