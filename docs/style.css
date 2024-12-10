@@ -98,6 +98,7 @@ h3 {
 #content p img {
 	float:left;
 	padding-right:15px
+	text-align: center;
 }
 
 #content table {
