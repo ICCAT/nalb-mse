@@ -94,7 +94,7 @@ h3 {
 #content h3 {
 	margin: 0 20px 0 20px;
 	padding: 20px 5px 0 5px;
-	border-bottom: 5px solid #215F9A;
+	border-bottom: 2px solid #215F9A;
 }
 
 
@@ -111,7 +111,7 @@ h3 {
 
 #content table {
 	border-collapse: collapse;
-	width: 70%;
+	width: 85%;
 	text-align: center;
 	background:#ffffff;
 }
